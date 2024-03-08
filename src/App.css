@@ -1,0 +1,168 @@
+.homePageWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 100vh; 
+}
+
+.formWrapper {
+    background:  #0b0718;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 10px 10px #DED2A8;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    color: #302718;
+}
+
+footer a{
+    color:  #4f410f;
+    text-decoration: none;
+ 
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.mainLabel {
+    margin-bottom: 16px;
+    margin-top: 0;
+    color: #DED2A8;
+}
+
+
+.homePageLogo {
+    height: 70px;
+    margin-bottom: 20px;
+}
+.inputBox {
+    padding: 5px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    background: #eee;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn {
+    font-weight: bold; 
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.joinBtn {
+    background:  #DED2A8;
+    /* width: 100px; */
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.joinBtn:hover,.leaveBtn:hover  {
+    background: #DED2A8;
+    color: #251e11;
+}
+
+
+.createInfo {
+    margin: 0 auto;
+    margin-top: 10px;
+      font-weight: bold;
+}
+
+
+.createNewBtn {
+    color: #DED2A8;
+    text-decoration: none;
+    border-bottom: 2px solid  #6a6553;
+    transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn:hover,
+footer a:hover {
+    color:  #DED2A8;
+    border-color: #DED2A8;
+}
+
+.mainWrap {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    height: 100vh;
+}
+
+
+.aside {
+    background:#C7AB59 ;
+    padding: 10px;
+    color: #0b0718;
+    display: flex;
+    flex-direction: column;
+     border: right 20px;;
+}
+.asideInner {
+    flex: 1;
+}
+
+
+.clientsList {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.client {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+.userName {
+    margin-top: 2px;
+    font-size: small;
+}
+
+.logo {
+    border-bottom: 2px solid #323217;
+    padding-bottom: 3px;
+}
+.logoImage{
+    height: 60px;
+    width: 160px;
+    margin-bottom: 5px;
+    box-shadow: 5px 5px #DED2A8;
+    border-radius: 7px;
+}
+.leaveBtn {
+    color: #f4eded;
+    width: 100%;
+    margin-top: 15px;
+    background:  #0b0718;
+   
+    
+}
+
+.CodeMirror {
+     min-height:calc(100vh - 20px); 
+    font-size: 20px;
+    line-height: 1;
+    padding-top: 20px;
+   
+} 
