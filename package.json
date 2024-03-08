@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev:front": "vite",
-    "build": "vite build",
+    "build": "node_modules/.bin/vite build",
     "server:dev": "nodemon server.js",
     "server:prod": "node server.js",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
